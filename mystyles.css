@@ -16,6 +16,7 @@
     --color-background: #ffffff;
     --color-footer: #002244;         /* Using primary-dark for footer */
     --color-footer-text: #b3c5d7;    /* Lighter blue-grey for footer text */
+    --color-background-light: #d7e6f5;    /* alternate background for page sections */
     
    /* New Footer Legal Background Color */
    --color-footer-legal-background: #1a1a1a; /* Adjust this to your desired background color */
@@ -152,7 +153,7 @@ nav ul.nav-list li a:hover {
     display: flex;
     align-items: center;
     text-align: center;
-    background-image: url('/images/herobg.jpg');
+    background-image: url('images/herobg.jpg');
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
@@ -199,7 +200,7 @@ h1 {
 /* #### BANNER SECTION STYLES #### */
 .banner {
     padding: 2rem 0;
-    background-color: var(--color-background-light);
+    background-color: var(--color-background);
 }
 
 .banner-content {
@@ -298,7 +299,7 @@ h1 {
 /* Section Container */
 .key-points {
     padding: 5rem 0;
-    background-color: var(--color-background-light);
+    background-color: var(--color-background);
 }
 
 /* Section Header */
@@ -366,7 +367,7 @@ h1 {
 /* #### REGIONS SECTION STYLES #### */
 .regions {
     padding: 4rem 0;
-    background-image: url('/images/keypoints.jpg');
+    background-image: url('images/keypoints.jpg');
     background-size: cover;
     background-attachment: fixed; /* This makes the image scroll with the page */
     background-position: center;
@@ -544,7 +545,7 @@ h1 {
 /* #### SOCIAL PROOF SECTION STYLES #### */
 .social-proof {
     padding: 4rem 0;
-    background-color: var(--color-background);
+    background-color: var(--color-background-light);
 }
 
 .social-proof h2 {
